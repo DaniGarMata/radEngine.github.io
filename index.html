@@ -4,32 +4,22 @@
 <head>
     <style>
         body {
-            padding: 35px;
+            padding: 50px;
         }
 
         img {
-            width: 200px;
-        }
-
-        table {
-            border-collapse: collapse;
-            width: 100%;
-        }
-
-        td,
-        th {
-            border: 1px solid #dddddd;
-            text-align: left;
-            padding: 8px;
+            height: 200px;
         }
     </style>
 </head>
 
 <body style="background-color:lightgreen;">
     <h1>Rad Engine</h1>
+        <img src="https://imgur.com/SBS4NzU.jpg" alt="Rad Engine Logo">
     <hr>
     <p>Rad Engine is a custom videogame engine created by Oga and Dani G. for our Engines class.</p>
-    <img src="https://imgur.com/SBS4NzU.jpg" alt="Rad Engine Logo">
+    <img src="https://cdn.discordapp.com/attachments/1036297305705422880/1200502923436765194/1_1.gif?ex=65c66a79&is=65b3f579&hm=0879bbff2d250b8491f80d9da8089a5966c980008960881348aca1a3bf2c7814&">
+    <img src="https://cdn.discordapp.com/attachments/1036297305705422880/1200502924040740884/2.gif?ex=65c66a79&is=65b3f579&hm=0115c4cc1c235095e417b5d4169d0d68d5e3f7b8f835b00544943ee6279461ee&">
     <hr>
     <h2>Team members</h2>
     <ul>
@@ -52,13 +42,33 @@
         </li>
     </ul>
     <hr>
+    <h2 id="audio-system">Audio System</h2>
+    <p>The Rad Engine makes use of the Wwise audio system. </p>
+    <p>The following background music are played as a playlist, on loop:</p>
+    <ul>
+        <li>Heartache (1min 50sec)</li>
+        <li>Wizard (around 3min)</li>
+    </ul>
+    <p>The music can be played, paused, and reset in the Play/Stop menu.</p>
+    <p>The following sound effects are played:</p>
+    <ul>
+        <li>Train sounds</li>
+        <li>Windows Boot-Up Sound (played from the computer, press 1 to play it again)</li>
+    </ul>
+    <p>Reverb is dynamically added to the train sounds if the main camera is in the tunnel of the demo scene, to simulate the train going through the tunnel. In order to hear the sound without the effect, move the camera along the train tracks until you
+        are out of the tunnel Z-length.</p>
+    <hr>
     <h2 id="engine-functionalities">Engine Functionalities</h2>
     <h3 id="general">General</h3>
     <ul>
         <li>Window resizing</li>
         <li>Tab resizing</li>
         <li>Tab layout customization</li>
+        <li>Drag and drop feature (supports FBX models and PNG textures)</li>
     </ul>
+    
+    <img src="https://imgur.com/uwI1lIJ.jpg">
+
     <h3 id="camera-controls">Camera Controls</h3>
     <ul>
         <li>W - Move forwards</li>
@@ -71,6 +81,9 @@
         <li>Mouse Wheel - Zoom</li>
         <li>Shift - Double speed</li>
     </ul>
+    
+    <img src="https://imgur.com/IxpDap5.jpg">
+    
     <h3 id="menus">Menus</h3>
     <p>File:</p>
     <ul>
@@ -78,16 +91,25 @@
         <li>Save / Load Scene</li>
         <li>Exit</li>
     </ul>
+    
+    <img src="https://imgur.com/zjvimMe.jpg">
+    
     <p>Edit:</p>
     <ul>
         <li>Cut / Copy / Paste</li>
         <li>Settings / Console tabs</li>
         <li>Load Test Model</li>
     </ul>
+    
+    <img src="https://imgur.com/KcLqfu7.jpg">
+    
     <p>Create:</p>
     <ul>
         <li>Create Cube / Sphere / Cone / Pyramid / Cylinder / Torus / Polyhedron Ball</li>
     </ul>
+    
+    <img src="https://imgur.com/ORQ9TG5.jpg">
+    
     <p>View:</p>
     <ul>
         <li>Wireframe Mode</li>
@@ -96,27 +118,42 @@
         <li>Disable Lights</li>
         <li>Disable Ambient Occlusion</li>
     </ul>
+    
+    <img src="https://imgur.com/GCZyEWh.jpg">
+    
     <p>Help:</p>
     <ul>
         <li>GitHub link</li>
         <li>About tab</li>
     </ul>
+    
+    <img src="https://imgur.com/4hEgP7V.jpg">
+    
     <p>Play/Stop:</p>
     <ul>
         <li>Play</li>
         <li>Stop</li>
         <li>Reset</li>
     </ul>
-    <p>Experimental features toggling</p>
+    
+    <img src="https://imgur.com/wsKFmME.jpg">
+    
+    <p>Experimental features toggling:</p>
     <ul>
         <li>Enable Mouse Picking</li>
         <li>Enable Mesh Transformations</li>
     </ul>
+    
+    <img src="https://imgur.com/DV1fHBv.jpg">
+    
     <h2 id="tabs">Tabs</h2>
     <p>GameObject:</p>
     <ul>
         <li>Select object</li>
     </ul>
+    
+    <img src="https://imgur.com/652bEYP.jpg">
+    
     <p>GameObjects Inspector:</p>
     <ul>
         <li>Mesh</li>
@@ -132,8 +169,17 @@
         <li>Camera</li>
         <li>Hierarchy Options</li>
     </ul>
+    
+    <img src="https://imgur.com/cpynToY.jpg">
+    
     <p>Assets Tree</p>
+    
+    <img src="https://imgur.com/U1jWdI8.jpg">
+    
     <p>Folder Explorer</p>
+    
+    <img src="https://imgur.com/3fGGU4H.jpg">
+    
     <p>Settings:</p>
     <ul>
         <li>Window Settings
@@ -147,31 +193,31 @@
         <li>Extra Settings</li>
         <li>Hardware Specifics </li>
     </ul>
+    
+    <img src="https://imgur.com/KBZ4a9T.jpg">
+    
     <p>Console</p>
+    
+    <img src="https://imgur.com/yoagw3R.jpg">
+    
     <p>About</p>
-<hr>
-<h2>License</h2>
-<p>MIT License</p>
+    
+    <img src="https://imgur.com/z9GSl8w.jpg">
+    
+    <hr>
+    <h2>License</h2>
+    <p>MIT License</p>
 
-<p>Copyright (c) 2023 DaniGarMata and Oga29</p>
+    <p>Copyright (c) 2023 DaniGarMata and Oga29</p>
 
-<p>Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:</p>
+    <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify,
+        merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
 
-<p>The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.</p>
+    <p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
 
-<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.</p>
+    <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+        BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+    </p>
 </body>
 
 </html>
