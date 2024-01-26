@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            padding: 35px;
+        }
+
+        img {
+            width: 200px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+    </style>
+</head>
+
+<body style="background-color:lightgreen;">
+    <h1>Rad Engine</h1>
+    <hr>
+    <p>Rad Engine is a custom videogame engine created by Oga and Dani G. for our Engines class.</p>
+    <img src="https://imgur.com/SBS4NzU.jpg" alt="Rad Engine Logo">
+    <hr>
+    <h2>Team members</h2>
+    <ul>
+        <li>
+            <p><a href="https://github.com/Oga29">Ogylandy Yespagambetov</a></p><img src="https://imgur.com/VWX0oec.jpg" alt="Ogylandy Yespagambetov"></li>
+        <li>
+            <p><a href="https://github.com/DaniGarMata">Daniel García</a></p> <img src="https://imgur.com/YHSiNAL.jpg" alt="Daniel García"></li>
+    </ul>
+    <hr>
+    <h2>Links
+    </h2>
+    <ul>
+        <li>
+            <a href="https://github.com/DaniGarMata/Rad-Engine">
+                GitHub repository</a>
+        </li>
+        <li>
+            <a href="#">
+                Latest Release</a>
+        </li>
+    </ul>
+    <hr>
+    <h2 id="engine-functionalities">Engine Functionalities</h2>
+    <h3 id="general">General</h3>
+    <ul>
+        <li>Window resizing</li>
+        <li>Tab resizing</li>
+        <li>Tab layout customization</li>
+    </ul>
+    <h3 id="camera-controls">Camera Controls</h3>
+    <ul>
+        <li>W - Move forwards</li>
+        <li>A - Move left</li>
+        <li>S - Move backwards</li>
+        <li>D - Move right</li>
+        <li>R - Move up</li>
+        <li>F - Move down</li>
+        <li>Alt+LClick - Rotate</li>
+        <li>Mouse Wheel - Zoom</li>
+        <li>Shift - Double speed</li>
+    </ul>
+    <h3 id="menus">Menus</h3>
+    <p>File:</p>
+    <ul>
+        <li>Save / Load Configuration (it loads the saved configuration after exiting and launching the editor)</li>
+        <li>Save / Load Scene</li>
+        <li>Exit</li>
+    </ul>
+    <p>Edit:</p>
+    <ul>
+        <li>Cut / Copy / Paste</li>
+        <li>Settings / Console tabs</li>
+        <li>Load Test Model</li>
+    </ul>
+    <p>Create:</p>
+    <ul>
+        <li>Create Cube / Sphere / Cone / Pyramid / Cylinder / Torus / Polyhedron Ball</li>
+    </ul>
+    <p>View:</p>
+    <ul>
+        <li>Wireframe Mode</li>
+        <li>Disable Textures</li>
+        <li>Cull Faces</li>
+        <li>Disable Lights</li>
+        <li>Disable Ambient Occlusion</li>
+    </ul>
+    <p>Help:</p>
+    <ul>
+        <li>GitHub link</li>
+        <li>About tab</li>
+    </ul>
+    <p>Play/Stop:</p>
+    <ul>
+        <li>Play</li>
+        <li>Stop</li>
+        <li>Reset</li>
+    </ul>
+    <p>Experimental features toggling</p>
+    <ul>
+        <li>Enable Mouse Picking</li>
+        <li>Enable Mesh Transformations</li>
+    </ul>
+    <h2 id="tabs">Tabs</h2>
+    <p>GameObject:</p>
+    <ul>
+        <li>Select object</li>
+    </ul>
+    <p>GameObjects Inspector:</p>
+    <ul>
+        <li>Mesh</li>
+        <li>Transform
+            <ul>
+                <li>Translate</li>
+                <li>Rotate</li>
+                <li>Scale</li>
+                <li>Reset all</li>
+            </ul>
+        </li>
+        <li>Texture</li>
+        <li>Camera</li>
+        <li>Hierarchy Options</li>
+    </ul>
+    <p>Assets Tree</p>
+    <p>Folder Explorer</p>
+    <p>Settings:</p>
+    <ul>
+        <li>Window Settings
+            <ul>
+                <li>Brightness</li>
+                <li>Width / Height</li>
+                <li>Resizable / Borderless / Fullscreen / Vsync</li>
+            </ul>
+        </li>
+        <li>FPS</li>
+        <li>Extra Settings</li>
+        <li>Hardware Specifics </li>
+    </ul>
+    <p>Console</p>
+    <p>About</p>
+<hr>
+<h2>License</h2>
+<p>MIT License</p>
+
+<p>Copyright (c) 2023 DaniGarMata and Oga29</p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</p>
+</body>
+
+</html>
